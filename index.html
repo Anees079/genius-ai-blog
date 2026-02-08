@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogGenius AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+      
+      /* Editor specific styles */
+      .editor-content:empty:before {
+        content: attr(placeholder);
+        color: #9ca3af;
+        pointer-events: none;
+      }
+      .editor-content h1 { font-size: 2.25em; font-weight: 700; margin-bottom: 0.5em; line-height: 1.2; }
+      .editor-content h2 { font-size: 1.75em; font-weight: 600; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.3; }
+      .editor-content h3 { font-size: 1.5em; font-weight: 600; margin-top: 1em; margin-bottom: 0.5em; }
+      .editor-content p { margin-bottom: 1em; line-height: 1.7; }
+      .editor-content ul { list-style-type: disc; margin-left: 1.5em; margin-bottom: 1em; }
+      .editor-content ol { list-style-type: decimal; margin-left: 1.5em; margin-bottom: 1em; }
+      .editor-content blockquote { border-left: 4px solid #e2e8f0; padding-left: 1em; font-style: italic; color: #4b5563; margin-bottom: 1em; }
+      .editor-content img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1.5rem 0; }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/genius-ai-blog/assets/index-Cvai1fHM.js"></script>
+</head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+</body>
+</html>
