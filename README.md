@@ -1,6 +1,6 @@
 # 🧠 Genius AI Blog
 
-> A comprehensive blog dedicated to Artificial Intelligence, Machine Learning, and the future of technology.
+> A web app that use AI to create blog and also genrate prompt for images and also create images (using gemini API).
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://anees079.github.io/genius-ai-blog/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -8,7 +8,7 @@
 
 ## 📖 About The Project
 
-**Genius AI Blog** is a web-based platform designed to share insights, tutorials, and news regarding the rapidly evolving world of Artificial Intelligence. Whether it's Deep Learning, NLP, or Generative AI, this blog serves as a hub for enthusiasts and developers to stay updated.
+**Genius AI Blog** is a web-based app that use AI to create blog and also genrate prompt for images and also create images (using gemini API). User can export data in multiple formats and also download the images.
 
 The project is hosted on [GitHub Pages](https://pages.github.com/), ensuring fast performance and high availability.
 
